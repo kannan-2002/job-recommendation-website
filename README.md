@@ -15,11 +15,18 @@ This project implements a backend service for an AI-powered talent acquisition p
    git clone https://github.com/kannan-2002/job-recommendation-platform.git
    cd job-recommendation-platform
 2. Install dependencies:
+
+   ```bash
    pip install -r requirements.txt
+   
 3. Set up the MySQL database:
 
-Create a MySQL database and run the provided schema to set up the users and jobs tables.
-Insert job data into the jobs table.
+    Create a MySQL database and run the provided schema to set up the users and jobs tables.
+
+    Insert job data into the jobs table.
+   
 4. Run the FastAPI application:
+   
+   ```bash
    uvicorn main:app --reload
 
